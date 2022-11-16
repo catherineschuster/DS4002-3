@@ -14,12 +14,39 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 #### Data Dictionary
 
 | Column      | Description   |
-| :---        |          ---: |
+| :---        |    :----:   |
 | Year      | Year of recorded metric value (1970-2022)   |
 | Quarter   | Quarter of recorded metric value (Q1-Q4)      |
 | Metric   | The metric of the value in Value: <ul><li>“Labor Productivity” = Quantifiable output per hour from nonfarm business.</li><li>“Unit Labor Costs” = Unit labor costs from nonfarm business.</li><li>“Real Hourly Compensation” = Real hourly compensation from nonfarm business.     </li></ul>|
 | Value   | Value of the metric |
 | YrQtr   | Year and quarter of the metric value (i.e., 1970 Q1, 2022 Q3)      |
+
+
+| Column      | Description   |
+| :---        |    :----:   |
+| COUNTRY      | Country of hours recorded (abbreviation)   |
+| country   | Country of hours recorded      |
+| EMPSTAT   | Type of Employment (abbreviation):   <ul><li>"DE” = “Dependent employment"</li><li>“TE” = "Total employment"</li></ul>|
+| Employment.status   | Type of Employment:   <ul><li>“Dependent employment"</li><li>"Total employment"</li></ul>|
+| FREQUENCY   | Frequency of metric recorded (abbreviation). “A” = "Annual" for all measures.      |
+| Frequency   | Frequency of metric recorded. "Annual" for all observations.      |
+| TIME   | Year      |
+| Time   | Year      |
+| Unit.Code   | Unit of annual hours worked value. “HOURS” for all observations.      |
+| Unit   | Unit of annual hours worked value. “Hours” for all observations.      |
+| PowerCode.Code   | 0 for all values      |
+| PowerCode   | "Units" for all values      |
+| Reference.Period.Code   | NA for all values      |
+| Reference.Period   | NA for all values      |
+| Value   | Total number of hours worked over the year divided by the average number of people in employment. The data are intended for comparisons of trends over time; they are unsuitable for comparisons of the level of average annual hours of work for a given year, because of differences in their sources.  Part-time workers are covered as well as full-time workers.      |
+| Flag.Codes   | NA for all values      |
+| Flags   | NA for all values      |
+
+| Column      | Description   |
+| :---        |    :----:   |
+| X.1      | Date survey was collected   |
+| % Worry   | Percentage of american respondents who “frequently experience worry in daily life”      |
+| % Stress   | Percentage of american respondents who “frequently experience stress in daily life”|
 
 
 ### Figures
