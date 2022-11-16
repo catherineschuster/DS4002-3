@@ -11,8 +11,9 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 
 ### Data
 
-#### Data Dictionary
-
+**Labor Productivity, Compensation, and Costs Data - Bureau of Labor and Statistics**
+The data compiled from the [Bureau of Labor and Statistics]([https://stats.oecd.org/index.aspx?DataSetCode=ANHRS](https://data.bls.gov/cgi-bin/surveymost?bls) measures labor productivity of labor, ionthe compensat
+two data sets were identified as reliable indicators of the American workforce, the Bureau of Labor and Statistics - Major Sector Productivity and Costs data, which includes real hourly labor productivity, real hourly compensation, and per unit labor costs by quarter from 1970-2022 in the US (1).
 | Column      | Description   |
 | :---        |    :---   |
 | Year      | Year of recorded metric value (1970-2022)   |
@@ -21,6 +22,10 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 | Value   | Value of the metric |
 | YrQtr   | Year and quarter of the metric value (i.e., 1970 Q1, 2022 Q3)      |
 
+
+**Average Annual Hours Worked per Worker Data - OECD**
+[Organisation for Economic Co-Operation and Development](https://stats.oecd.org/index.aspx?DataSetCode=ANHRS)
+Data sourced by ncludes a measure of the average annual hours worked per American workers from 2010-2021 (2).
 
 | Column      | Description   |
 | :---        |    :----   |
@@ -42,11 +47,21 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 | Flag.Codes   | NA for all values      |
 | Flags   | NA for all values      |
 
+
+**Stress and Worry Data - Gallop Panel and National Health and Well-Being Index**
+[Gallop Panel](https://www.gallup.com/174158/gallup-panel-methodology.aspx)
 | Column      | Description   |
 | :---        |    :----   |
 | X.1      | Date survey was collected   |
 | % Worry   | Percentage of american respondents who “frequently experience worry in daily life”      |
 | % Stress   | Percentage of american respondents who “frequently experience stress in daily life”|
+
+**Real GDP by Quarter - Fred Economic Research**
+[Fred Economic Research](https://www.gallup.com/174158/gallup-panel-methodology.aspx](https://fred.stlouisfed.org/series/A191RL1Q225SBEA)
+| Column      | Description   |
+| :---        |    :----   |
+| DATE      | Date in format YYYY-MM-DD    |
+| A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
 
 
 ### Figures
