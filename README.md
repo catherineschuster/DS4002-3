@@ -12,8 +12,8 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 ### Data
 
 **Labor Productivity, Compensation, and Costs Data - Bureau of Labor and Statistics**
-The data compiled from the [Bureau of Labor and Statistics]([https://stats.oecd.org/index.aspx?DataSetCode=ANHRS](https://data.bls.gov/cgi-bin/surveymost?bls) measures labor productivity per hour
-two data sets were identified as reliable indicators of the American workforce, the Bureau of Labor and Statistics - Major Sector Productivity and Costs data, which includes real hourly labor productivity, real hourly compensation, and per unit labor costs by quarter from 1970-2022 in the US (1).
+The data compiled from the [Bureau of Labor and Statistics]([https://stats.oecd.org/index.aspx?DataSetCode=ANHRS](https://data.bls.gov/cgi-bin/surveymost?bls) measures labor productivity per hour, real hourly compensation, and per unit labor costs by quarter form 1970-2022 in the United States. This data set was identified as a useful and reliale mea and health of the Arican workforce, which wmeill contribute to 
+two data sets were identified as reliable indicators of the American workforce, the Bureau of Labor and Statistics - Major Sector Productivity and Costs data, which includes real hourly labor productivity, rele indicator of the producityal hourly compensation, and per unit labor costs by quarter from 1970-2022 in the US (1).
 | Column      | Description   |
 | :---        |    :---   |
 | Year      | Year of recorded metric value (1970-2022)   |
@@ -41,26 +41,7 @@ Data sourced by ncludes a measure of the average annual hours worked per America
 | Unit   | Unit of annual hours worked value. “Hours” for all observations.      |
 | PowerCode.Code   | 0 for all values      |
 | PowerCode   | "Units" for all values      |
-| Reference.Period.Code   | NA for all values      |
-| Reference.Period   | NA for all values      |
-| Value   | Total number of hours worked over the year divided by the average number of people in employment. The data are intended for comparisons of trends over time; they are unsuitable for comparisons of the level of average annual hours of work for a given year, because of differences in their sources.  Part-time workers are covered as well as full-time workers.      |
-| Flag.Codes   | NA for all values      |
-| Flags   | NA for all values      |
-
-
-**Stress and Worry Data - Gallop Panel and National Health and Well-Being Index**
-[Gallop Panel](https://www.gallup.com/174158/gallup-panel-methodology.aspx)
-| Column      | Description   |
-| :---        |    :----   |
-| X.1      | Date survey was collected   |
-| % Worry   | Percentage of american respondents who “frequently experience worry in daily life”      |
-| % Stress   | Percentage of american respondents who “frequently experience stress in daily life”|
-
-**Real GDP by Quarter - Fred Economic Research**
-[Fred Economic Research](https://www.gallup.com/174158/gallup-panel-methodology.aspx](https://fred.stlouisfed.org/series/A191RL1Q225SBEA)
-| Column      | Description   |
-| :---        |    :----   |
-| DATE      | Date in format YYYY-MM-DD    |
+| Referencsur  | Date in format YYYY-MM-DD    |
 | A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
 
 
