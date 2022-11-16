@@ -24,8 +24,7 @@ two data sets were identified as reliable indicators of the American workforce, 
 
 
 **Average Annual Hours Worked per Worker Data - OECD**
-[Organisation for Economic Co-Operation and Development](https://stats.oecd.org/index.aspx?DataSetCode=ANHRS)
-Data sourced by ncludes a measure of the average annual hours worked per American workers from 2010-2021 (2).
+This data sourced by the [Organisation for Economic Co-Operation and Development](https://stats.oecd.org/index.aspx?DataSetCode=ANHRS) contains a measure of the average annual hours worked per American workers from 2010-2021 [8]. This metric is used to compare the current state of American work against the backdrop of historical working trends.
 
 | Column      | Description   |
 | :---        |    :----   |
@@ -43,6 +42,39 @@ Data sourced by ncludes a measure of the average annual hours worked per America
 | PowerCode   | "Units" for all values      |
 | Referencsur  | Date in format YYYY-MM-DD    |
 | A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
+
+** Stress and Worry Data - Gallop Panel**
+This dataset from the [Gallop Panel](https://www.gallup.com/174158/gallup-panel-methodology.aspx) contains American
+survey data measuring important indicators of health and well-being. The Gallup Panel allows for a quick "pulse" of U.S. adults' opinions on some of the most pressing issues. The data of interest for this project includes the 
+
+| Column      | Description   |
+| :---        |    :----   |
+| COUNTRY      | Country of hours recorded (abbreviation)   |
+| country   | Country of hours recorded      |
+| EMPSTAT   | Type of Employment (abbreviation):   <ul><li>"DE” = “Dependent employment"</li><li>“TE” = "Total employment"</li></ul>|
+| Employment.status   | Type of Employment:   <ul><li>“Dependent employment"</li><li>"Total employment"</li></ul>|
+| FREQUENCY   | Frequency of metric recorded (abbreviation). “A” = "Annual" for all measures.      |
+| Frequency   | Frequency of metric recorded. "Annual" for all observations.      |
+| TIME   | Year      |
+| Time   | Year      |
+| Unit.Code   | Unit of annual hours worked value. “HOURS” for all observations.      |
+| Unit   | Unit of annual hours worked value. “Hours” for all observations.      |
+| PowerCode.Code   | 0 for all values      |
+| PowerCode   | "Units" for all values      |
+| Referencsur  | Date in format YYYY-MM-DD    |
+| A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
+
+
+** Quarterly Real Gross Domestic Product Data - FRED Economic Data**
+This Real GDP Data sourced by (FRED Economic Research)[https://fred.stlouisfed.org/series/A191RL1Q225SBEA] contains the percent change in real gross domestic product from 1949 to the present day. This metric will be used as the indicator of the health of the American economy.
+
+| Column      | Description   |
+| :---        |    :----   |
+| DATE      | Date in format YYYY-MM-DD   |
+| A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
+
+
+
 
 
 ### Figures
