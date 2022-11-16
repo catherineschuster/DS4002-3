@@ -12,7 +12,7 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 ### Data
 
 **Labor Productivity, Compensation, and Costs Data - Bureau of Labor and Statistics**
-The data compiled from the [Bureau of Labor and Statistics]([https://stats.oecd.org/index.aspx?DataSetCode=ANHRS](https://data.bls.gov/cgi-bin/surveymost?bls) measures labor productivity of labor, ionthe compensat
+The data compiled from the [Bureau of Labor and Statistics]([https://stats.oecd.org/index.aspx?DataSetCode=ANHRS](https://data.bls.gov/cgi-bin/surveymost?bls) measures labor productivity per hour
 two data sets were identified as reliable indicators of the American workforce, the Bureau of Labor and Statistics - Major Sector Productivity and Costs data, which includes real hourly labor productivity, real hourly compensation, and per unit labor costs by quarter from 1970-2022 in the US (1).
 | Column      | Description   |
 | :---        |    :---   |
