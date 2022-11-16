@@ -11,6 +11,16 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 
 ### Data
 
+#### Data Dictionary
+
+| Column      | Description   |
+| :---        |          ---: |
+| Year      | Year of recorded metric value (1970-2022)   |
+| Quarter   | Quarter of recorded metric value (Q1-Q4)      |
+| Metric   | The metric of the value in Value: <ul><li>“Labor Productivity” = Quantifiable output per hour from nonfarm business.</li><li>“Unit Labor Costs” = Unit labor costs from nonfarm business.</li><li>“Real Hourly Compensation” = Real hourly compensation from nonfarm business.     </li></ul>|
+| Value   | Value of the metric |
+| YrQtr   | Year and quarter of the metric value (i.e., 1970 Q1, 2022 Q3)      |
+
 
 ### Figures
 
