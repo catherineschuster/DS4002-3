@@ -14,7 +14,7 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 #### Data Dictionary
 
 | Column      | Description   |
-| :---        |    :----:   |
+| :---        |    :---   |
 | Year      | Year of recorded metric value (1970-2022)   |
 | Quarter   | Quarter of recorded metric value (Q1-Q4)      |
 | Metric   | The metric of the value in Value: <ul><li>“Labor Productivity” = Quantifiable output per hour from nonfarm business.</li><li>“Unit Labor Costs” = Unit labor costs from nonfarm business.</li><li>“Real Hourly Compensation” = Real hourly compensation from nonfarm business.     </li></ul>|
@@ -23,7 +23,7 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 
 
 | Column      | Description   |
-| :---        |    :----:   |
+| :---        |    :----   |
 | COUNTRY      | Country of hours recorded (abbreviation)   |
 | country   | Country of hours recorded      |
 | EMPSTAT   | Type of Employment (abbreviation):   <ul><li>"DE” = “Dependent employment"</li><li>“TE” = "Total employment"</li></ul>|
@@ -43,7 +43,7 @@ Potenetial new hypothesis: Workplace productivity measures and stress indexes ha
 | Flags   | NA for all values      |
 
 | Column      | Description   |
-| :---        |    :----:   |
+| :---        |    :----   |
 | X.1      | Date survey was collected   |
 | % Worry   | Percentage of american respondents who “frequently experience worry in daily life”      |
 | % Stress   | Percentage of american respondents who “frequently experience stress in daily life”|
