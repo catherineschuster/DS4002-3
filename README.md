@@ -7,11 +7,15 @@ Hypothesis: Workplace productivity measures and well-being indexes will be stati
 Potenetial new hypothesis: Workplace productivity measures and stress indexes have a statistically significant synchronized relationship with quarter-over-quarter change in GDP per capita. 
 
 ### SRC
+Code Execution: The source code for this project contains two documents. (1) The code to compile, clean, and consolidate the source data into the data used in for EDA and preparation for timeseries analysis. This code is compatable with R Studio. (2) The code to conduct and analyze the timeseries forecasting process [2]. This code is compatible with python 3.0 or higher.
 
+Code Usage: If you find our models or code useful, please add suitable reference to our project and in your work.
 
 ### Data
 
-**Labor Productivity, Compensation, and Costs Data - Bureau of Labor and Statistics**
+There are four datasets used in this project as follows:
+
+#### **1. Labor Productivity, Compensation, and Costs Data - Bureau of Labor and Statistics**
 
 The data compiled from the [Bureau of Labor and Statistics]([https://stats.oecd.org/index.aspx?DataSetCode=ANHRS](https://data.bls.gov/cgi-bin/surveymost?bls) measures labor productivity per hour, real hourly compensation, and per unit labor costs by quarter form 1970-2022 in the United States. This data set was identified as a useful and reliale mea and health of the Arican workforce, which wmeill contribute to 
 two data sets were identified as reliable indicators of the American workforce, the Bureau of Labor and Statistics - Major Sector Productivity and Costs data, which includes real hourly labor productivity, rele indicator of the producityal hourly compensation, and per unit labor costs by quarter from 1970-2022 in the US (1).
@@ -24,7 +28,7 @@ two data sets were identified as reliable indicators of the American workforce, 
 | YrQtr   | Year and quarter of the metric value (i.e., 1970 Q1, 2022 Q3)      |
 
 
-**Average Annual Hours Worked per Worker Data - OECD**
+#### **2. Average Annual Hours Worked per Worker Data - OECD**
 
 This data sourced by the [Organisation for Economic Co-Operation and Development](https://stats.oecd.org/index.aspx?DataSetCode=ANHRS) contains a measure of the average annual hours worked per American workers from 2010-2021 [8]. This metric is used to compare the current state of American work against the backdrop of historical working trends.
 
@@ -45,7 +49,7 @@ This data sourced by the [Organisation for Economic Co-Operation and Development
 | Referencsur  | Date in format YYYY-MM-DD    |
 | A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
 
-**Stress and Worry Data - Gallop Panel**
+#### **3. Stress and Worry Data - Gallop Panel**
 
 This dataset from the [Gallop Panel](https://www.gallup.com/174158/gallup-panel-methodology.aspx) contains American
 survey data measuring important indicators of health and well-being. The Gallup Panel allows for a quick "pulse" of U.S. adults' opinions on some of the most pressing issues. The data of interest for this project includes the 
@@ -57,7 +61,7 @@ survey data measuring important indicators of health and well-being. The Gallup 
 | % Stress   | Percentage of american respondents who “frequently experience stress in daily life”|
 
 
-**Quarterly Real Gross Domestic Product Data - FRED Economic Data**
+#### **4. Quarterly Real Gross Domestic Product Data - FRED Economic Data**
 
 This Real GDP Data sourced by (FRED Economic Research)[https://fred.stlouisfed.org/series/A191RL1Q225SBEA] contains the percent change in real gross domestic product from 1949 to the present day. This metric will be used as the indicator of the health of the American economy.
 
@@ -67,10 +71,8 @@ This Real GDP Data sourced by (FRED Economic Research)[https://fred.stlouisfed.o
 | A191RL1Q225SBEA   | Percent change in real gross domestic product from preceding period      |
 
 
-
-
-
 ### Figures
+Figures used include exploratory data analysis visualizations used to assess long term history trends in stress, real GDP, and labor metrics. Additionally, some figures included are graphical representations of our timeseries forecasting. 
 
 ### References
 [1] R. Cooke, “The Cost of Work Stress -- and How to Reduce it,” Ted, May, 2020. [Online]. Available: https://www.ted.com/talks/rob_cooke_the_cost_of_work_stress_and_how_to_reduce_it. [Accessed Nov. 2, 2022].
